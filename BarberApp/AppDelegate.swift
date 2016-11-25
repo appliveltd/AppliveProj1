@@ -7,16 +7,49 @@
 //
 
 import UIKit
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        FIRApp.configure()
+        
+        FIRAuth.auth()?.signIn(withEmail: "kharatsp@gmail.com", password: "test1234", completion: { (user, error) in
+            guard let _ = user else {
+                if let error = error {
+                    if let errCode = FIRAuthErrorCode(rawValue: error._code) {
+                        switch errCode {
+                        case .errorCodeUserNotFound:
+                            self.showAlert("User account not found. Try registering")
+                        case .errorCodeWrongPassword:
+                            self.showAlert("Incorrect username/password combination")
+                        default:
+                            self.showAlert("Error: \(error.localizedDescription)")
+                        }
+                    }
+                    return
+                }
+                assertionFailure("user and error are nil")
+            }
+            
+            self.signIn()
+        })
+        
         return true
+    }
+    
+    func signIn() {
+        //performSegue(withIdentifier: "SignInFromLogin", sender: nil)
+    }
+    
+    func showAlert(_ message: String) {
+        let alertController = UIAlertController(title: "To Do App", message: message, preferredStyle: UIAlertControllerStyle.alert)
+        alertController.addAction(UIAlertAction(title: "Dismiss", style: UIAlertActionStyle.default,handler: nil))
+        self.present(alertController, animated: true, completion: nil)
     }
 
     func applicationWillResignActive(_ application: UIApplication) {

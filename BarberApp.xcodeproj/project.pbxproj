@@ -7,21 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		565A5EC57BDEB8B31EC705CF /* Pods_BarberApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06C6C01BD23CAFCCAC103BA5 /* Pods_BarberApp.framework */; };
+		985A71511DE6E66C00A8ADC9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 985A71501DE6E66C00A8ADC9 /* GoogleService-Info.plist */; };
+		985A71531DE749D500A8ADC9 /* CustomerReviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985A71521DE749D500A8ADC9 /* CustomerReviews.swift */; };
 		9891E0271DE12E6500AF88BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9891E0261DE12E6500AF88BA /* AppDelegate.swift */; };
-		9891E0291DE12E6500AF88BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9891E0281DE12E6500AF88BA /* ViewController.swift */; };
 		9891E02C1DE12E6500AF88BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9891E02A1DE12E6500AF88BA /* Main.storyboard */; };
 		9891E02E1DE12E6500AF88BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9891E02D1DE12E6500AF88BA /* Assets.xcassets */; };
 		9891E0311DE12E6500AF88BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9891E02F1DE12E6500AF88BA /* LaunchScreen.storyboard */; };
+		9891E03D1DE1339900AF88BA /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9891E03C1DE1339900AF88BA /* Styles.swift */; };
+		9891E0411DE1421F00AF88BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9891E03E1DE1421F00AF88BA /* ViewController.swift */; };
+		9891E0421DE1421F00AF88BA /* SideBarTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9891E03F1DE1421F00AF88BA /* SideBarTableViewController.swift */; };
+		9891E0431DE1421F00AF88BA /* SideBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9891E0401DE1421F00AF88BA /* SideBar.swift */; };
+		9891E0491DE1505C00AF88BA /* Gallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9891E0481DE1505C00AF88BA /* Gallery.swift */; };
+		9891E04B1DE1FF7000AF88BA /* ContactUs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9891E04A1DE1FF7000AF88BA /* ContactUs.swift */; };
+		9891E0551DE262C700AF88BA /* RateCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9891E0541DE262C700AF88BA /* RateCard.swift */; };
+		98D05A331DE3590C00E65079 /* AboutUs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D05A321DE3590C00E65079 /* AboutUs.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		06C6C01BD23CAFCCAC103BA5 /* Pods_BarberApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BarberApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		851E409E722F341EF481A1A7 /* Pods-BarberApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BarberApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-BarberApp/Pods-BarberApp.release.xcconfig"; sourceTree = "<group>"; };
+		985A71501DE6E66C00A8ADC9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		985A71521DE749D500A8ADC9 /* CustomerReviews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerReviews.swift; sourceTree = "<group>"; };
 		9891E0231DE12E6400AF88BA /* BarberApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarberApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9891E0261DE12E6500AF88BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9891E0281DE12E6500AF88BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9891E02B1DE12E6500AF88BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9891E02D1DE12E6500AF88BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9891E0301DE12E6500AF88BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9891E0321DE12E6500AF88BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9891E03C1DE1339900AF88BA /* Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
+		9891E03E1DE1421F00AF88BA /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../../../../Downloads/BlurrySideBar/BlurrySideBar/ViewController.swift; sourceTree = "<group>"; };
+		9891E03F1DE1421F00AF88BA /* SideBarTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SideBarTableViewController.swift; path = ../../../../../Downloads/BlurrySideBar/BlurrySideBar/SideBarTableViewController.swift; sourceTree = "<group>"; };
+		9891E0401DE1421F00AF88BA /* SideBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SideBar.swift; path = ../../../../../Downloads/BlurrySideBar/BlurrySideBar/SideBar.swift; sourceTree = "<group>"; };
+		9891E0481DE1505C00AF88BA /* Gallery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gallery.swift; sourceTree = "<group>"; };
+		9891E04A1DE1FF7000AF88BA /* ContactUs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactUs.swift; path = ../../AKBarber/AKBarber/ContactUs.swift; sourceTree = "<group>"; };
+		9891E0511DE25EDA00AF88BA /* OLDSH___.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OLDSH___.TTF"; sourceTree = "<group>"; };
+		9891E0521DE25EDA00AF88BA /* OLDSIH__.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = OLDSIH__.TTF; sourceTree = "<group>"; };
+		9891E0531DE25EDA00AF88BA /* OLDSSCH_.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = OLDSSCH_.TTF; sourceTree = "<group>"; };
+		9891E0541DE262C700AF88BA /* RateCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RateCard.swift; sourceTree = "<group>"; };
+		98D05A321DE3590C00E65079 /* AboutUs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutUs.swift; sourceTree = "<group>"; };
+		C54EE8D807221D33FA8901A7 /* Pods-BarberApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BarberApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BarberApp/Pods-BarberApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +54,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				565A5EC57BDEB8B31EC705CF /* Pods_BarberApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		435CB6B28A557940DE93DA5F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06C6C01BD23CAFCCAC103BA5 /* Pods_BarberApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9891E01A1DE12E6400AF88BA = {
 			isa = PBXGroup;
 			children = (
+				9891E0501DE25EDA00AF88BA /* oldstyle_hplhs */,
 				9891E0251DE12E6400AF88BA /* BarberApp */,
 				9891E0241DE12E6400AF88BA /* Products */,
+				AA2582A17706E7A557BB2F42 /* Pods */,
+				435CB6B28A557940DE93DA5F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +92,42 @@
 			isa = PBXGroup;
 			children = (
 				9891E0261DE12E6500AF88BA /* AppDelegate.swift */,
-				9891E0281DE12E6500AF88BA /* ViewController.swift */,
 				9891E02A1DE12E6500AF88BA /* Main.storyboard */,
+				985A71521DE749D500A8ADC9 /* CustomerReviews.swift */,
+				9891E0541DE262C700AF88BA /* RateCard.swift */,
+				98D05A321DE3590C00E65079 /* AboutUs.swift */,
+				9891E0481DE1505C00AF88BA /* Gallery.swift */,
+				9891E03C1DE1339900AF88BA /* Styles.swift */,
+				9891E03E1DE1421F00AF88BA /* ViewController.swift */,
+				9891E04A1DE1FF7000AF88BA /* ContactUs.swift */,
+				9891E03F1DE1421F00AF88BA /* SideBarTableViewController.swift */,
+				9891E0401DE1421F00AF88BA /* SideBar.swift */,
 				9891E02D1DE12E6500AF88BA /* Assets.xcassets */,
 				9891E02F1DE12E6500AF88BA /* LaunchScreen.storyboard */,
+				985A71501DE6E66C00A8ADC9 /* GoogleService-Info.plist */,
 				9891E0321DE12E6500AF88BA /* Info.plist */,
 			);
 			path = BarberApp;
+			sourceTree = "<group>";
+		};
+		9891E0501DE25EDA00AF88BA /* oldstyle_hplhs */ = {
+			isa = PBXGroup;
+			children = (
+				9891E0511DE25EDA00AF88BA /* OLDSH___.TTF */,
+				9891E0521DE25EDA00AF88BA /* OLDSIH__.TTF */,
+				9891E0531DE25EDA00AF88BA /* OLDSSCH_.TTF */,
+			);
+			name = oldstyle_hplhs;
+			path = ../../../../Downloads/oldstyle_hplhs;
+			sourceTree = "<group>";
+		};
+		AA2582A17706E7A557BB2F42 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C54EE8D807221D33FA8901A7 /* Pods-BarberApp.debug.xcconfig */,
+				851E409E722F341EF481A1A7 /* Pods-BarberApp.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +137,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9891E0351DE12E6500AF88BA /* Build configuration list for PBXNativeTarget "BarberApp" */;
 			buildPhases = (
+				0B975589AF37679A6188E8F8 /* [CP] Check Pods Manifest.lock */,
 				9891E01F1DE12E6400AF88BA /* Sources */,
 				9891E0201DE12E6400AF88BA /* Frameworks */,
 				9891E0211DE12E6400AF88BA /* Resources */,
+				220102BD97F295E1FB5A6631 /* [CP] Embed Pods Frameworks */,
+				BEDFD8AD3F9FEDED3B9BB762 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,6 +193,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9891E0311DE12E6500AF88BA /* LaunchScreen.storyboard in Resources */,
+				985A71511DE6E66C00A8ADC9 /* GoogleService-Info.plist in Resources */,
 				9891E02E1DE12E6500AF88BA /* Assets.xcassets in Resources */,
 				9891E02C1DE12E6500AF88BA /* Main.storyboard in Resources */,
 			);
@@ -131,13 +201,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0B975589AF37679A6188E8F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		220102BD97F295E1FB5A6631 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BarberApp/Pods-BarberApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEDFD8AD3F9FEDED3B9BB762 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BarberApp/Pods-BarberApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9891E01F1DE12E6400AF88BA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9891E0291DE12E6500AF88BA /* ViewController.swift in Sources */,
+				9891E0431DE1421F00AF88BA /* SideBar.swift in Sources */,
+				9891E0421DE1421F00AF88BA /* SideBarTableViewController.swift in Sources */,
+				9891E0491DE1505C00AF88BA /* Gallery.swift in Sources */,
+				98D05A331DE3590C00E65079 /* AboutUs.swift in Sources */,
+				9891E0411DE1421F00AF88BA /* ViewController.swift in Sources */,
+				9891E03D1DE1339900AF88BA /* Styles.swift in Sources */,
+				9891E04B1DE1FF7000AF88BA /* ContactUs.swift in Sources */,
 				9891E0271DE12E6500AF88BA /* AppDelegate.swift in Sources */,
+				9891E0551DE262C700AF88BA /* RateCard.swift in Sources */,
+				985A71531DE749D500A8ADC9 /* CustomerReviews.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +382,7 @@
 		};
 		9891E0361DE12E6500AF88BA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C54EE8D807221D33FA8901A7 /* Pods-BarberApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BarberApp/Info.plist;
@@ -268,6 +395,7 @@
 		};
 		9891E0371DE12E6500AF88BA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 851E409E722F341EF481A1A7 /* Pods-BarberApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BarberApp/Info.plist;
@@ -297,6 +425,7 @@
 				9891E0371DE12E6500AF88BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
